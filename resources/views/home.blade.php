@@ -198,86 +198,6 @@
        </div>
         </li>
 
-        <!-- slider 3 -->
-  <!-- <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" > -->
-          <!-- MAIN IMAGE -->
-          <!-- <img src="images/slidebg1.png"  alt="slider streaming"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-          <div class="tp-caption large_white_bold skewfromrightshort customout"
-            data-x="300"
-            data-y="126"
-            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-speed="500"
-            data-start="800"
-            data-easing="Back.easeOut"
-            data-endspeed="500"
-            data-endeasing="Power4.easeIn"
-            data-captionhidden="on"
-            style="z-index: 4">Stay
-          </div>
-          <div class="tp-caption large_white_bold skewfromrightshort customout"
-            data-x="300"
-            data-y="182"
-            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-speed="500"
-            data-start="1100"
-            data-easing="Back.easeOut"
-            data-endspeed="500"
-            data-endeasing="Power4.easeIn"
-            data-captionhidden="on"
-            style="z-index: 7">Tuned
-          </div>
-          <div class="tp-caption medium_white_light_italic customin customout tp-resizeme"
-            data-x="300"
-            data-y="250"
-            data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-speed="500"
-            data-start="1500"
-            data-easing="Power3.easeInOut"
-            data-splitin="words"
-            data-splitout="words"
-            data-elementdelay="0.12"
-            data-endelementdelay="0.12"
-            data-endspeed="300"
-            style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">107.8 Poros FM
-          </div>
-          <div class="tp-caption medium_white_light_italic randomrotate customout tp-resizeme"
-            data-x="300" data-hoffset="0"
-            data-y="274" data-voffset="30"
-            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-speed="500"
-            data-start="1800"
-            data-easing="Power3.easeInOut"
-            data-splitin="chars"
-            data-splitout="chars"
-            data-elementdelay="0.08"
-            data-endspeed="500"
-            style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Your Polytechnic Radio Station
-          </div>
-          <div class="tp-caption large_bold_white customin ltl"
-            data-x="596"
-            data-y="101"
-            data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-            data-speed="1000"
-            data-start="1850"
-            data-easing="Back.easeInOut"
-            data-endspeed="400"
-            data-endeasing="Back.easeIn"
-            style="z-index: 7"><img src="images/radio-01.png" alt="radio" width="240px">
-          </div>
-          <div class="tp-caption medium_bg_orange skewfromleftshort customout"
-            data-x="300" data-hoffset="-90"
-            data-y="320" data-voffset="-50"
-            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-            data-speed="500"
-            data-start="700"
-            data-easing="Back.easeOut"
-            data-endspeed="500"
-            data-endeasing="Power4.easeIn"
-            data-captionhidden="on"
-            style="z-index: 21"><a href="http://porosfm.caster.fm/" id="streamingToggle" target="blank">LIVE STREAMING</a>
-       </div>
-        </li> -->
       </ul>
       <div class="tp-bannertimer"></div>
     </div>
@@ -511,7 +431,6 @@
     <div class="w3-quarter">
       <img src="/storage/{{$nasional->gambar}}"  style="width:10%">
       <h4>{{$nasional->penyanyi}}</h4>
-      <h3>{{$nasional->judul}}</h3>
       <br>
     </div>
   </div>
@@ -608,30 +527,7 @@
           SOON!
          <!-- Click Here -->
       </a>
-      <!-- <div class="modal fade" id="DP" role="dialog">
-            <div class="modal-dialog modal-md">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h4 class="modal-title">ARE YOU THE NEXT CREW OF POROS FM?</h4>
-                </div>
-                <div class="modal-body">
-                  <p><br>
-      <img src="images/posdigoprec.jpg" alt="Posdig Oprec" width="100%"><br><br><br>
-      <b>JADWAL OPEN RECRUITMENT</b><br><br><br>
-      <b>Pengambilan Form*: </b>31 Agustus 2017 dan 4-8 September 2017<br>
-      <b>Interview: </b>7-13 September 2017<br><br><br>
-
-      <i>* Form tersedia di mading setiap jurusan, mading GSG,<br>mading Pendopo Teknik, dan saat Gebyar IKM (31 Agustus 2017)</i>
-      </p>
-
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-                </div>
-              </div>
-            </div>
-          </div> -->
+   
 
     </div>
   </div>
